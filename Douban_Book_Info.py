@@ -13,7 +13,7 @@ def login_douban():
 
 	headers = {'user-agent':'Mozilla/5.0','Referer':'https://accounts.douban.com/passport/login_popup?login_source=anony'}
 
-	data ={'name':'sponge.meryl@gmail.com','password':'Melyl4y!db','remember':'false'}
+	data ={'name':,'password':,'remember':'false'} #logindata omitted
 
 	try:
 		r = s.post(login_url,headers = headers, data = data)
